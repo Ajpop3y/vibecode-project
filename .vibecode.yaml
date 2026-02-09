@@ -1,0 +1,101 @@
+project_name: vibecode-project
+files:
+- README.md
+- pyproject.toml
+- src/vibecode/__init__.py
+- src/vibecode/__main__.py
+- src/vibecode/agents/mcp_agent.py
+- src/vibecode/ai.py
+- src/vibecode/auth_helper.py
+- src/vibecode/chat/__init__.py
+- src/vibecode/chat/engine.py
+- src/vibecode/chat/gui.py
+- src/vibecode/chat/ingest.py
+- src/vibecode/chat/knowledge.py
+- src/vibecode/chat/mcp_host.py
+- src/vibecode/chat/memory.py
+- src/vibecode/chat/models.py
+- src/vibecode/chat/persistence.py
+- src/vibecode/cli.py
+- src/vibecode/config.py
+- src/vibecode/config/mcp_servers.json
+- src/vibecode/discovery.py
+- src/vibecode/engine.py
+- src/vibecode/gui/__init__.py
+- src/vibecode/gui/dialogs.py
+- src/vibecode/gui/main_window.py
+- src/vibecode/gui/utils.py
+- src/vibecode/gui/workers.py
+- src/vibecode/mcp_server.py
+- src/vibecode/mcp_server_gdrive_real.py
+- src/vibecode/rag.py
+- src/vibecode/registry.py
+- src/vibecode/renderers/__init__.py
+- src/vibecode/renderers/human.py
+- src/vibecode/renderers/llm.py
+- src/vibecode/renderers/markdown.py
+- src/vibecode/renderers/secrets.py
+- src/vibecode/settings.py
+- unpack.py
+- verify_install.py
+- run_local.py
+- launch.bat
+exclude:
+- .venv/
+- venv/
+- env/
+- __pycache__/
+- '*.pyc'
+- dist/
+- build/
+- '*.egg-info/'
+- .git/
+- .vscode/
+- .idea/
+- node_modules/
+- '*.pdf'
+- artifacts/
+- '*.txt'
+- claude/
+output_name: vibecode-project-prototype
+last_snapshot:
+  README.md: a3892176a0ecaa505727c87e843d1264
+  pyproject.toml: fdf864510ecf52f68d1d9f174f9c1d64
+  src/vibecode/__init__.py: 0674ff572186886f1b7b8dd3138e70d3
+  src/vibecode/__main__.py: 92ac6677aa4c7dbbc08019011adb8936
+  src/vibecode/agents/mcp_agent.py: 06f9a2165e0d5497652faff5c6f284c5
+  src/vibecode/ai.py: 89a35b55f9c13a41eb9cb3d1202bd173
+  src/vibecode/auth_helper.py: 76808cc239cf86c2647c4498f0f17ad6
+  src/vibecode/chat/__init__.py: 7ea056a0d0753b5138e91bd8d591b174
+  src/vibecode/chat/engine.py: db62775c27763236d92b89d23bee7018
+  src/vibecode/chat/gui.py: e84fdf0447a3ad8d7f3ba68c8dda00a2
+  src/vibecode/chat/ingest.py: 8ef5019124482276254eafe2dfcd848a
+  src/vibecode/chat/knowledge.py: 719d5f17714e7d84d7704b9724b8115b
+  src/vibecode/chat/mcp_host.py: bd8f92f79193200ddc3ff1b4f9630435
+  src/vibecode/chat/memory.py: eafe220b15bf1ffa0134cd7a4b8bb119
+  src/vibecode/chat/models.py: 4d8b02d738991704c64b2aa0125b9643
+  src/vibecode/chat/persistence.py: 55aef2f7836bcedf66e31e84f899e088
+  src/vibecode/cli.py: c22b93dd755002f442f75289cf0087f1
+  src/vibecode/config.py: 532cca02dffbd593f85b7096721a07be
+  src/vibecode/config/mcp_servers.json: 55548242b56c07be3054e31eb738dce0
+  src/vibecode/discovery.py: 4faabe84ff42142759cfceb36d5d5293
+  src/vibecode/engine.py: cd4ff26e9676c74199ca5de2cdbfbb2e
+  src/vibecode/gui/__init__.py: f335bd056cd432057d35efbde751f251
+  src/vibecode/gui/dialogs.py: 3161e75c6e887054ad20da48d91da264
+  src/vibecode/gui/main_window.py: ef46910984c876689b0a03c6739f8cb8
+  src/vibecode/gui/utils.py: ab54177530165f54a9acf2848d775948
+  src/vibecode/gui/workers.py: 08cea867d748fae37ac35a9c725cac14
+  src/vibecode/mcp_server.py: e2f430254e5e92aad2cc42a529ff11f8
+  src/vibecode/mcp_server_gdrive_real.py: ee44bf72ab67689525e4360e04bed71d
+  src/vibecode/rag.py: 3f7a7edf94419af4dcf468c165f1da96
+  src/vibecode/registry.py: fde1c970b8f03dd792ba4406f18f7fd8
+  src/vibecode/renderers/__init__.py: d41d8cd98f00b204e9800998ecf8427e
+  src/vibecode/renderers/human.py: 4a989c021653dee3f2e26a3f8f2f02d7
+  src/vibecode/renderers/llm.py: 9605ed92ff0bc830b420e9c6b8253141
+  src/vibecode/renderers/markdown.py: 368dc61a3cb49ccc9d0498b65a97a1b7
+  src/vibecode/renderers/secrets.py: 903559fdd7f95e304836666e0732b44e
+  src/vibecode/settings.py: 29335ebdd784ea9e3c62d89c97670969
+  unpack.py: 4cf7f639bc756e85e8751e741324c246
+  verify_install.py: fa04f24f49e7665ae727a8c893276a8f
+  run_local.py: 876235351830bd362ed865780e12fe14
+  launch.bat: f3dbdf1c8919b2b4605b7edca1ec7390

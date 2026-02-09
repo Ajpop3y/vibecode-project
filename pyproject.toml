@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "vibecode"
+version = "1.0.0"
+authors = [
+    { name = "Ajpop3y", email = "ajpop3y@gmail.com" },
+]
+description = "A dual-format codebase-to-PDF context generation tool for humans and LLMs."
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [
+    "typer[all]",     # For the CLI
+    "pyyaml",         # For .vibecode.yaml parsing
+    "pathspec",       # For .gitignore parsing
+    "pygments",       # For syntax highlighting
+    "mistune",        # For Markdown parsing
+    "weasyprint",     # Human-Readable PDF
+    "fpdf2",          # Machine-Readable PDF
+    "PyQt6",          # Optional GUI
+    "pydantic>=2.0",  # Config validation
+    "pypdf",          # For rereading the PDF before unpacking
+    "keyring",        # Secure API key storage for VibeChat
+    "google-genai",           # Default LLM provider (Google Gemini - new unified SDK)
+    "markdown",       # Markdown rendering in chat bubbles
+    "openai",         # Fallback LLM provider for VibeSelect/VibeRAG
+    "chromadb",       # Persistent vector store for RAG
+    "mcp>=1.20.0",    # Model Context Protocol SDK (Universal AI Socket)
+    "python-dotenv",  # Environment variable management for MCP servers
+]
+
+# This section creates the 'vibecode' command in the user's PATH
+[project.scripts]
+vibecode = "vibecode.cli:app"

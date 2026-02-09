@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "google_drive": {
+      "command": "python",
+      "args": [
+        "-m",
+        "vibecode.mcp_server_gdrive_real"
+      ],
+      "env": {
+        "PYTHONPATH": "${PYTHONPATH}"
+      }
+    }
+  }
+}
