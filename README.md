@@ -6,7 +6,7 @@
 
 [![Gemini 3](https://img.shields.io/badge/Powered%20by-Gemini%203-blue)](https://ai.google.dev/)
 [![Python](https://img.shields.io/badge/Python-3.9+-green)](https://python.org)
-[![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)
 
 ---
 
