@@ -233,14 +233,6 @@ vibecode/
 - **MCP**: Model Context Protocol SDK
 - **Language**: Python 3.9+
 
----
-
-## 📝 License
-
-MIT License - see [LICENSE](LICENSE) file
-
----
-
 ## 🙏 Acknowledgments
 
 Built for the **Gemini 3 Hackathon** by Ajpop3y
