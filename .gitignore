@@ -145,3 +145,9 @@ secrets/
 token.json
 credentials.json
 .vibecode/
+
+# VibeCode Indexing and Local Docs
+.vibe_index.pkl
+*.pdf
+.vibecode.yaml
+README_ULTIMATE.md
